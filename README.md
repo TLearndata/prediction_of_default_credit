@@ -1,7 +1,7 @@
-<<<<<<< HEAD
-# Prediction_of_default_probability
-Prediction of default probability
-=======
-# prediction_of_default_credit
-prediction_of_default_credit
->>>>>>> 2050907c922eeeec36a79e26447b50f71f5a3a50
+### 风控案例：基于五种机器模型的信用风险评估（1）数据预处理
+#### 模型代码
+
+#### 由于数据受保护原因，不提供原始数据，下载代码后，可利用kaggle的数据进行分析建模~
+
+#### 数据链接如下
+https://www.kaggle.com/dalpozz/creditcardfraud

@@ -16,7 +16,7 @@ font = FontProperties(fname=r"c:\windows\fonts\msyh.ttc", size=10)
 #导入数据
 data = pd.read_csv("data_原始.csv")
 
-#find the datatype of all the columns
+#了解数据类型 
 data.dtypes
 
 #对缺失值做处理
@@ -50,7 +50,7 @@ label = data.status
 del data['paid.ratio']
 del data['group']
 
-#find the datatype of all the columns
+#分析缺失值比例
 data.replace([-1],np.nan).isnull().sum()
 
 
